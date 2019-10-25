@@ -1,0 +1,2 @@
+# DiagnosticCategory
+
