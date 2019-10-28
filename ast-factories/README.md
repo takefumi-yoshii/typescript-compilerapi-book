@@ -2,7 +2,7 @@
 
 {% page-ref page="../program/" %}
 
-{% page-ref page="../node/sourcefile.md" %}
+{% page-ref page="../declaration/sourcefile/" %}
 
 
 
