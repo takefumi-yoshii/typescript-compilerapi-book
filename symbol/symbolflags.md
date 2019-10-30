@@ -1,2 +1,0 @@
-# SymbolFlags
-
