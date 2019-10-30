@@ -23,6 +23,8 @@
   * [visitNode](visitor/visitnode.md)
 * [emitter](emitter/README.md)
   * [getTsBuildInfoEmitOutputFilePath](emitter/gettsbuildinfoemitoutputfilepath.md)
+* [program](program/README.md)
+  * [findConfigFile](program/findconfigfile.md)
 * [builderState](builderstate/README.md)
   * [EmitOutput](builderstate/emitoutput.md)
 * [builder](builder/README.md)
