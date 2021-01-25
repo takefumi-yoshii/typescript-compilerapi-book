@@ -6,7 +6,7 @@ Compiler API は、その namespace に全ての型定義とAPI（関数）を�
 
 ## このドキュメントの目的
 
-TypeScript Compiler API の公式ドキュメントは、公開されていません（2019年11月現在）。わずかではありますが、[microsoft](https://github.com/microsoft)/[**TypeScript**](https://github.com/microsoft/TypeScript) ****のリポジトリで公開されているものもあります。
+TypeScript Compiler API の公式ドキュメントは現在公開されていません（2021年1月現在）。わずかではありますが、[microsoft](https://github.com/microsoft)/[**TypeScript**](https://github.com/microsoft/TypeScript) ****のリポジトリで公開されているものもあります。
 
 * \*\*\*\*[**Architectural Overview**](https://github.com/microsoft/TypeScript/wiki/Architectural-Overview)\*\*\*\*
 * \*\*\*\*[**Using the Compiler API**](https://github.com/Microsoft/TypeScript/wiki/Using-the-Compiler-API)\*\*\*\*
