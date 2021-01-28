@@ -8,6 +8,7 @@
 * [sys](sys/README.md)
   * [FileWatcherEventKind](sys/filewatchereventkind.md)
 * [scanner](scanner/README.md)
+  * [Diagnostic](scanner/diagnostic.md)
   * [ErrorCallback](scanner/errorcallback.md)
 * [utilities](utilities/README.md)
   * [getDefaultLibFileName](utilities/getdefaultlibfilename.md)
