@@ -1,6 +1,6 @@
 # Program
 
-`Program`は型システムとコード生成へのエントリーポイントと呼べます。 `SourceFiles`の集合とコンパイル単位を表す一連のコンパイルオプションを含みます。典型的な Program インスタンス作成コードは以下の様なものです。`ts.findConfigFile`関数で、パーサーの tsconfig.json を特定します。
+`Program`は型システムとコード生成のコンパイル単位と呼べます。 `SourceFiles`の集合と一連のコンパイルオプションを含みます。典型的な Program インスタンス作成コードは以下の様なものです。`ts.findConfigFile`関数で、パーサーの tsconfig.json を特定します。
 
 ```typescript
 import * as ts from 'typescript'

@@ -4,6 +4,7 @@
 * [core](core/README.md)
   * [MapLike](core/maplike.md)
 * [Program](program/README.md)
+  * [createProgram](program/createprogram.md)
   * [findConfigFile](program/findconfigfile.md)
 * [types](types/README.md)
   * [Path](types/path.md)
