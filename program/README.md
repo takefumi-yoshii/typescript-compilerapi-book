@@ -1,3 +1,7 @@
+---
+description: Program はコンパイルの単位であり、エントリーポイントです
+---
+
 # Program
 
 `Program`は型システムとコード生成のコンパイル単位と呼べます。 `SourceFiles`の集合と一連のコンパイルオプションを含みます。典型的な Program インスタンス作成コードは以下の様なものです。`ts.findConfigFile`関数で、パーサーの tsconfig.json を特定します。
@@ -34,4 +38,6 @@ export function createProgram(searchPath: string, config: Config) {
   })
 }
 ```
+
+
 
