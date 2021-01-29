@@ -12,11 +12,13 @@ TypeScript Compiler API の公式ドキュメントは現在公開されてい�
 * \*\*\*\*[**Using the Compiler API**](https://github.com/Microsoft/TypeScript/wiki/Using-the-Compiler-API)\*\*\*\*
 * \*\*\*\*[**Using the Language Service API**](https://github.com/microsoft/TypeScript/wiki/Using-the-Language-Service-API)\*\*\*\*
 
-この他にまとまった情報として [**TypeScript Deep Dive**](https://basarat.gitbooks.io/typescript/docs/compiler/overview.html) ****にも情報がありますが、やはり情報量としては不十分です。API Documentとして確立されたものは存在せず、TypeScript Compiler API を利用するユーザーは、型定義から読み解く他ありませんでした。
+型定義を出力する code generator であったり、language service ホストのプラグインなどは、TypeScript Compiler API の知識が必要になることがあります。しかし、確立された Document は存在せず、TypeScript Compiler API の振る舞いは、型定義から読み解く他ありませんでした。ツールメンテナの一助となるべく、このドキュメントを発足するに至りました。この他にまとまった情報として [**TypeScript Deep Dive**](https://basarat.gitbooks.io/typescript/docs/compiler/overview.html) ****にも情報がありますので、そちらも参考にしてみてください。
 
-Compiler API は、TypeScript + ライブラリを用いたアプリケーション開発などでは、直接触れる機会はないでしょう。しかしながら、TypeScript の需要は日に日に増し「その開発環境が整備されているか否か」が技術選定のひとつの基準となっています。TypeScript アプリケーションであっても、最終的には JavaScript アプリケーションとしてトランスパイルされるので、本質的価値は型システムに帰属しません。
+## 免責事項
 
-TypeScript 型システムの恩恵を受けるためには、ツールの整備が欠かせません。型定義を出力する codegenerator であったり、language service ホストのプラグインなどは、TypeScript Compiler API の知識が求められます。そして、それをメンテナンスするための知見が必要とされています。この様な背景からドキュメンテーションの必要性を感じ、これを発足するに至りました。
+このドキュメントは非公式であり、TypeScript SRCコードから筆者が読み解いた内容を記載しています。TypeScript のバージョンアップに Compiler API も追従してリリースされるため、コンパイラが解釈する構文が増える度にドキュメントが陳腐化することが想定されます。
+
+public リポジトリで公開しているドキュメントなので、issue やプルリクエストを頂けると助かります。[https://github.com/takefumi-yoshii/typescript-compilerapi-book](https://github.com/takefumi-yoshii/typescript-compilerapi-book)
 
 ## Node
 
