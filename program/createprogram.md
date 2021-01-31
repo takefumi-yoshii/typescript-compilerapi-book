@@ -1,6 +1,6 @@
 # createProgram
 
-新しい`Program`インスタンスを作成する関数。`Program`は、「SourceFile」と「CompilerOptions」の不変のコレクションであり、コンパイル単位を表します。
+新しい`Program`インスタンスを作成する関数。`Program`は、「SourceFile」と「CompilerOptions」のコレクションであり、コンパイル単位を表します。
 
 ```typescript
 function createProgram(createProgramOptions: CreateProgramOptions): Program;
